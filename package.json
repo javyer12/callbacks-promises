@@ -1,0 +1,23 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "aprender jv asincrono",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "callback:challenge": "node src/callbacks/challenge.js",
+    "promise": "node src/promesas/index.js",
+    "promise:challenge": "node src/promesas/challenge.js",
+    "async": "node src/async-await/index.js",
+    "async:challenge": "node src/async-await/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "asincronismo"
+  ],
+  "author": "frank",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
